@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>javascript</h1>
+    <h2 id="dom">DOM</h2>
+    <h2>hf</h2>
+    <button onclick="change()">Click</button>
+</body>
+<script>
+    function change(){
+        let content= document.getElementsByTagName("h2")
+           console.log(content);
+           dom.innerHTML="HELLO"
+      /*  content[0].innerHTML="document object model"
+        content[1].innerHTML="document object model"    /*  style funtion*/
+      /*  content[0].style.color="green"
+        content[0].style.fontsize="200px" */
+        dom.style.color="red"
+        dom.style.fontSize="100px"
+    }
+</script>
+</html>
